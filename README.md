@@ -21,3 +21,10 @@ we used pytocrh for converting our data to a More interesting style to work with
 to something that can the Dataloader use . dataloader used to keep a small chunk of our data in the ram not to load all data in the ram  )<br>
 and we fine-tuning(mt5 model ) using  T5Tokenizer , MT5ForConditionalGeneration <br>
 and we use a dashboard to keep track of our model config and log called wands.
+
+
+# Very important Note
+
+We forget to train our model and when we tried to train it yestardey it took 2 hour to just train 30 artical
+so we closed the training step but we belive the code work will if there are a resources and alote of time to optimaze(we
+used adam which is very slow)
