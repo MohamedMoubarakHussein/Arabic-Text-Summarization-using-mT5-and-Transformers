@@ -5,6 +5,9 @@ We use the latest technology (state-of-the-art technique) for the Text summariza
 This project involves building a text summarization model using the google/mt5-small model from Hugging Face’s transformers library.
 We will be fine-tuning a transformer model for Summarization Task. a summary of a given article/document is generated when passed through a network.
 
+# Technologies
+
+PyTorch, Hugging Face Transformers, mT5, WandB, Tokenization, DataLoader, Fine-Tuning, Text Summarization, NLP
 
 # Dataset
 <br>
