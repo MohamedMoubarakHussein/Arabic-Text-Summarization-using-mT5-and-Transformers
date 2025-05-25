@@ -1,14 +1,15 @@
 # Intro
-**First Sorry for my bad English :(**<br>
+
 Text summarization (Abstractive Summary)
-Our task in this project is to use the latest technology (state-of-the-art technique) for the Text summarization we used in this
-task mt5 pre-trained tokenizer and model to get our results.
-in this project we will be fine-tuning a transformer model for Summarization Task. a summary of a given article/document is generated when passed through a network.
+We use the latest technology (state-of-the-art technique) for the Text summarization. 
+This project involves building a text summarization model using the google/mt5-small model from Hugging Face’s transformers library.
+We will be fine-tuning a transformer model for Summarization Task. a summary of a given article/document is generated when passed through a network.
+
 
 # Dataset
 <br>
 we use  a small chunk of **Wikihow Dataset** ("Not cleaned dataset for Arabic lang")<br>
-and we tried to clean it مسحنا التشكيل   and alphabet char .<br>
+and we tried to clean it  .<br>
 we used "300" articles for our model <br>
 The link to the whole dataset<br>
 https://drive.google.com/file/d/1PM7GFCy2gJL1WHqQz1dzqIDIEN6kfRoi/view<br>
@@ -28,3 +29,6 @@ and we use a dashboard to keep track of our model config and log called wands.
 We forget to train our model and when we tried to train it yestardey it took 2 hour to just train 30 artical
 so we closed the training step but we belive the code work will if there are a resources and alote of time to optimaze(we
 used adam which is very slow)
+
+
+
